@@ -9,17 +9,51 @@
 </head>
 
 <body>
-    <h1>AKAN NAMES</h1>
-    <P>The Akan people of Ghana frequently name their children after the day of the week they were born and the order in
+    <div class = "container"
+     <h1>AKAN NAMES</h1>
+     <div id = "flex">
+         <div class = "col-md-6"
+         <div id ="img"
+         <img src="img/akanNames/319171217.webp">
+     </div>
+     <div class = "para"
+<P>The Akan people of Ghana frequently name their children after the day of the week they were born and the order in
         which they were born. These "day names" have further meanings concerning the soul and character of the person.
         Middle names have considerably more variety and can refer to their birth order, twin status, or an ancestor's
         middle name</P>
-    <a href="https://en.wikipedia.org/wiki/Akan_names">
-        <akan names~wikipedia</a>
+
+    <a href="https://en.wikipedia.org/wiki/Akan_names">akan names~wikipedia</a>
             <p>This is a web application that takes a user's birthday and calculates the day of the week they
                 were born and then depending on their gender outputs their Akan Name.
             </p>
+            <p>input your gender and date of birth in the form below to know your Akan Name!</p>
 
-            <script src="js/script.js">/script>
-</body >
-</html >
+            </div>
+            </div>
+            <div class="jumbotron col-md-6">
+                <div class="form">
+                    <label>Day</label><br>
+                    <input type="text" id="day" placeholder="dd" required><br>
+                    <label>Month</label><br>
+                    <input type="text" id="month" placeholder="mm" required><br>
+                    <label>Year</label><br>
+                    <input type="text" id="year" placeholder="yy" required><br>
+                    <label>Gender</label><br>
+                    <input type="checkbox" name="gender" id="gender" value="male" > Male<br>
+                    <input type="checkbox" name="gender" id="gender" value="female" > Female<br><br>
+                </div>
+                <div class="sbmt">
+                    <a href="#result"><button type="button" name="button" class="btn btn-primary mb-2"
+                            onclick="submition();">Submit</button></a>
+                </div>
+                <div id="last">
+                    <p id="final"></p>
+                </div>
+            </div>
+            </div>
+            </div>
+            </div>
+            <script src="js/script.js"></script>
+</body>
+
+</html>
