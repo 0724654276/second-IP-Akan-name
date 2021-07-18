@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Tangerine&display=swap');
 h1{
   color:aqua;
-  font-size:200px;
-  font-family: 'Abril Fatface', cursive;
+  font-size:100px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
   text-align: center;
 }
 label{
@@ -32,9 +32,8 @@ input[type=submit]{
 }
 .para{
   font-size: 20px;
-  color:white
-  
-} 
+  color:aquamarine
+  } 
 img{
   width:150px;
   height:150px;
@@ -58,4 +57,25 @@ strong{
 }
 .container{
     background-image: url(https://cdn.cdnparenting.com/articles/2020/11/14164658/319171217.webp);
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: repeat(3,1fr);
+    grid gap: 15 px;
+    padding : 15px;
+}
+.header{
+    grid-row: 1/2;
+    grid-column: 1/1;
+    display: flex;
+    justify-content: center; 
+    align-items: flex-start;
+}
+
+.para{
+    grid-row: 2/3;
+    text-align:left;
+}
+.mid{
+    grid-row: 3/4;
+    grid-column: 1/1;
 }
