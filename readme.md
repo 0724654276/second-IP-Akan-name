@@ -16,3 +16,4 @@ The Akan people of Ghana frequently name their children after the day of the wee
 3. Javascript
 ## Support and contact details
 contact author through george.macharia@student.moringaschool.com
+Licensed under [MIT LICENSE](license)
