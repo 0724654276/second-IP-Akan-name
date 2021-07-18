@@ -33,10 +33,8 @@ input[type=submit]{
 .para{
   font-size: 20px;
   color:aquamarine
-  } 
-#img{
-  margin-left: 150px;
 }
+  
 #last{
   font-family:'Tangerine', cursive
 }
@@ -45,10 +43,6 @@ input[type=submit]{
 }
 #flex{
   display:flex;
-}
-
-strong{
-  color:rgb(18, 156, 18)
 }
 .container{
     background-image: url(https://cdn.cdnparenting.com/articles/2020/11/14164658/319171217.webp);
@@ -65,11 +59,11 @@ strong{
     justify-content: center; 
     align-items: flex-start;
 }
-
 .para{
-    grid-row: 2/3;
-    text-align:left;
+  grid-row: 2/3;
+  text-align:left;
 }
+
 .mid{
     grid-row: 3/4;
     grid-column: 1/1;
