@@ -1,6 +1,6 @@
 
 # Akan Names
-#### Akan-names website, Friday 16th August,Vrsn 1.0
+#### Akan-names website,2021
 #### By **George Kamakia**
 ## Description
 github repository :https://https://github.com/0724654276/second-IP-Akan-name.git
@@ -13,5 +13,6 @@ The Akan people of Ghana frequently name their children after the day of the wee
 ## Technologies Used
 1. HTML
 2. CSS
+3.Javascript
 ## Support and contact details
 contact author through george.macharia@student.moringaschool.com
