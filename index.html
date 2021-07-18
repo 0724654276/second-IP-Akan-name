@@ -6,18 +6,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Akan Names</title>
-    
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
         integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
         integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-        <link rel="stylesheet" href="css/styles.css" </head>
+    <link rel="stylesheet" href="css/styles.css" </head>
 
 
 <body>
-    <div class="container" <h1>AKAN NAMES</h1>
+    <div class="container">
+        <div class=header>
+            <h1>AKAN NAMES</h1>
+        </div>
+
         <div id="flex">
             <div class="col-md-6" <div id="img" <img src="img/akanNames/319171217.webp">
             </div>
@@ -36,20 +40,22 @@
             </div>
         </div>
         <div class="jumbotron col-md-6">
-            <div class="form">
-                <label>Day</label><br>
-                <input type="text" id="day" placeholder="dd" required><br>
-                <label>Month</label><br>
-                <input type="text" id="month" placeholder="mm" required><br>
-                <label>Year</label><br>
-                <input type="text" id="year" placeholder="yy" required><br>
-                <label>Gender</label><br>
-                <input type="checkbox" name="gender" id="gender" value="male"> Male<br>
-                <input type="checkbox" name="gender" id="gender" value="female"> Female<br><br>
-            </div>
-            <div class="sbmt">
-                <a href="#result"><button type="button" name="button" class="btn btn-primary mb-2"
-                        onclick="submition();">Submit</button></a>
+            <div class="mid">
+                <div class="form">
+                    <label>Day</label><br>
+                    <input type="text" id="day" placeholder="dd" required><br>
+                    <label>Month</label><br>
+                    <input type="text" id="month" placeholder="mm" required><br>
+                    <label>Year</label><br>
+                    <input type="text" id="year" placeholder="yy" required><br>
+                    <label>Gender</label><br>
+                    <input type="checkbox" name="gender" id="gender" value="male"> Male<br>
+                    <input type="checkbox" name="gender" id="gender" value="female"> Female<br><br>
+                </div>
+                <div class="sbmt">
+                    <a href="#result"><button type="button" name="button" class="btn btn-primary mb-2"
+                            onclick="submition();">Submit</button></a>
+                </div>
                 <div id="last">
                     <p id="final"></p>
                 </div>

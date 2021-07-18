@@ -2,11 +2,11 @@
 h1{
   color:aqua;
   font-size:100px;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
   text-align: center;
 }
 label{
-  color: rgb(18, 156, 18)
+  color: blue;
 }
 .form {
  text-align: center;
